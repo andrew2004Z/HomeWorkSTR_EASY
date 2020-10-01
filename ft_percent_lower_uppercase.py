@@ -6,4 +6,4 @@ def ft_percent_lower_uppercase(str):
             up += 1
         else:
             low += 1
-    return up / low * 100
+    return up / low

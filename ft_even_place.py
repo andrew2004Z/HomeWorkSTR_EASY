@@ -5,10 +5,10 @@ def ft_len(str):
     return c
 
 
-def ft_even_place(str):
+def ft_even_place(stsr):
     r = ""
-    l = ft_len(str)
+    l = ft_len(stsr)
     for i in range(l):
         if i % 2 == 0:
-            r = r + str[i]
-    return(r)
+            r = r + stsr[i]
+    return r
