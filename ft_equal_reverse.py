@@ -28,4 +28,3 @@ def ft_equal_reverse(str):
         for i in range(l // 2 + 1, l):
             v += str[i]
     return p == ft_reverse_str(v)
-

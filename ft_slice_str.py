@@ -1,14 +1,17 @@
 def ft_len(str):
-    l = 0
+    c = 0
     for i in str:
-        l += 1
-    return (l)
+        c += 1
+    return c
 
 
 def ft_slice_str(str, start, end):
-    result = ""
-    for i in range(start, end + 1):
-        if i >= ft_len(str):
-            break
-        result = result + str[i]
-    return result
+    l = ft_len(str)
+    r = ""
+    if end > l:
+        for i in range(1, l):
+            r += str[i]
+    else:
+        for i in range(start - 1, end):
+            r += str[i]
+    return r
