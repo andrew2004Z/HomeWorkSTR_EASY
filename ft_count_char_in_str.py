@@ -1,6 +1,6 @@
-def ft_count_char_in_str(char, stsr):
+def ft_count_char_in_str(char, str):
     n = 0
-    for i in stsr:
+    for i in str:
         if i == char:
             n += 1
     return n

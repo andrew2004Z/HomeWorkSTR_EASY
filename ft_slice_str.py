@@ -1,14 +1,14 @@
-def ft_len(stsr):
+def ft_len(str):
     l = 0
-    for i in stsr:
+    for i in str:
         l += 1
-    return l
+    return (l)
 
 
-def ft_slice_str(str1, start, end):
+def ft_slice_str(str, start, end):
     result = ""
     for i in range(start, end + 1):
-        if i >= ft_len(str1):
+        if i >= ft_len(str):
             break
-        result = result + str1[i]
+        result = result + str[i]
     return result

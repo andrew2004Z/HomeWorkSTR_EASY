@@ -1,5 +1,5 @@
-def ft_len(stsr):
+def ft_len(str):
     l = 0
-    for i in stsr:
+    for i in str:
         l += 1
-    return l
+    return(l)

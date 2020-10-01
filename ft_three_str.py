@@ -1,8 +1,22 @@
-def ft_len(stsr):
+def ft_len(str1):
     l = 0
-    for i in stsr:
+    for i in str1:
         l += 1
-    return l
+    return (l)
+
+
+def ft_len(str2):
+    l = 0
+    for i in str2:
+        l += 1
+    return (l)
+
+
+def ft_len(str3):
+    l = 0
+    for i in str3:
+        l += 1
+    return (l)
 
 
 def ft_three_str(str1, str2, str3):
@@ -18,7 +32,7 @@ def ft_three_str(str1, str2, str3):
 
             result = result + str3
 
-            for k in range(ft_len(str2) + i, ft_len(str1)):
+            for k in range(i + ft_len(str2), ft_len(str1)):
                 result = result + str1[k]
             return result
     return -1

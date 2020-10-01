@@ -1,2 +1,2 @@
-def ft_print_copy_str(stsr, number):
-    return stsr * number
+def ft_print_copy_str(str, number):
+    print(str * number)

@@ -11,4 +11,4 @@ def ft_even_place(str):
     for i in range(l):
         if i % 2 == 0:
             r = r + str[i]
-    print(r)
+    return(r)

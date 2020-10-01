@@ -1,8 +1,8 @@
-def ft_len(stsr):
+def ft_len(str1):
     l = 0
-    for i in stsr:
+    for i in str1:
         l += 1
-    return l
+    return (l)
 
 
 def ft_cmp_str(str1, str2, num):

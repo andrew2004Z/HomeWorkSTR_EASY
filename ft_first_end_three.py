@@ -1,5 +1,12 @@
-def ft_first_end_three(stsr):
-    if ft_len(stsr) > 5:
-        print(stsr[:3] + stsr[-3:])
+def ft_len(str):
+    l = 0
+    for i in str:
+        l += 1
+    return (l)
+
+
+def ft_first_end_three(str):
+    if ft_len(str) > 5:
+        return(str[:3] + str[-3:])
     else:
-        print(stsr[0] * ft_len(stsr))
+        return(str[0] * ft_len(str))
