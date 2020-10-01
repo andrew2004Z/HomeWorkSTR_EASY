@@ -1,16 +1,15 @@
-def ft_len(str1):
-    l = 0
-    for i in str1:
-        l += 1
-    return (l)
+def ft_len(a):
+    b = 0
+    for i in a:
+        b += 1
+    return b
 
 
 def ft_cmp_str(str1, str2, num):
-    result = ""
-    for i in range(num):
-        result = result + str1[i]
-    result = result + str2
-
-    for i in range(num, ft_len(str1)):
-        result = result + str1[i]
-    return result
+    v = ''
+    for i in range(num - 1):
+        v += str1[i]
+    v += str2
+    for i in range(num - 1, ft_len(str1)):
+        v += str1[i]
+    return v
